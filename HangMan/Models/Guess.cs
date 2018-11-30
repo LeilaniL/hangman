@@ -31,7 +31,7 @@ namespace HangMan.Models
             }
         }
         public int noOfGuesses = 0;
-        public List<Char> rightAnswer = new List<Char> { 't', 'e', 's', 't' };
+        public List<Char> rightAnswer = new List<Char> { 't', 'e', 's', 't' }; s
         public List<Char> guessedLetters = new List<Char> { '_', '_', '_', '_' };
         public List<Char> CheckForMatch(char userInput)
         {
